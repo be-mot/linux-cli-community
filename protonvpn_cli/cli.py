@@ -93,7 +93,7 @@ def main():
 def cli():
     """Run user's input command."""
 
-    print(DEPRECATION_NOTICE)
+    # print(DEPRECATION_NOTICE)
 
     # Initial log values
     change_file_owner(os.path.join(CONFIG_DIR, "pvpn-cli.log"))
